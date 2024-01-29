@@ -1,0 +1,48 @@
+.body-background
+            {
+              background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8156);
+              background-size: 180% 180%;
+              animation: gradient-animation 18s ease infinite;
+            }
+
+            @keyframes gradient-animation {
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
+            }
+
+.info{
+  background: linear-gradient(to right, #3498db, #9b59b6);
+
+}
+.info2{
+background-color: black;
+}
+
+
+
+.heading-font {
+  font-family: Arial, sans-serif;
+}
+
+.body-font {
+  font-family: Helvetica, sans-serif;
+}
+
+.img {
+  max-width: 100%; /* Make sure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 100%; /* Adjust the maximum width for smaller screens */
+  }
+}
